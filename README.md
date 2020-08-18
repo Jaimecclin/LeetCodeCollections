@@ -1,5 +1,8 @@
 # LeetCodeCollections
 
+![](https://i.imgur.com/AyFYwud.png)
+
+## Introduction
 This note is my personal Leetcode practice. Trying to articulate them after my learning. At the same time I'd like to practice English writing as well so as these notes would be completed in English. This way it would be easier to review in the future if needed. 
 
 ## Categories
@@ -62,5 +65,8 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     1. Easy [206. Reverse Linked List](https://hackmd.io/TzUkBaBlSjuXJ2alR0UhEA)
     2. Easy [141. Linked List Cycle](https://hackmd.io/dCY2MdBUS56Rc9DAWebn1g)
     3. Easy [24. Swap Nodes in Pairs](https://hackmd.io/fGUrk1XYSL-LCzehPQyOaw)
+    4. Medium [328. Odd Even Linked List](https://hackmd.io/2rqJAKhcSam7fmhvrF7jTw)
+    5. Medium [92. Reverse Linked List II](/sIDEXRSCTBOTMuRtf96MLw)
 - Note
+    1. Adding a dummy node which points to head might be helpful.
     
