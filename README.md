@@ -72,6 +72,10 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     8. Easy [83. Remove Duplicates from Sorted List](https://hackmd.io/stOGxq_QT3as5DW3fLq26Q)
     9. Easy [203. Remove Linked List Elements](https://hackmd.io/nHVP-6myQF-lAMYWNXmvhw)
     10. Medium [Remove Duplicates from Sorted List II](https://hackmd.io/N4KXJWoDTk2d6lptlAnChw)
+    11. [369 Plus One Linked List](https://hackmd.io/Lk0iSFYfTcSJBc_5Epmzrg)
+    12. [Intersection of Two Linked Lists](https://hackmd.io/fmK2esz-QYCYYqXV1gNNKQ)
+    13. Add Two Numbers
+    14. Merge Two Sorted Lists
 - Note
     1. Adding a dummy node which points to head might be helpful.
     2. Tow pointers is problem killer sometimes.
