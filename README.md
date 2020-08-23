@@ -1,5 +1,8 @@
 # LeetCodeCollections
 
+[![hackmd-github-sync-badge](https://hackmd.io/oFGEhcbSS2OSunc6adfa1w/badge)](https://hackmd.io/oFGEhcbSS2OSunc6adfa1w)
+
+
 ![](https://i.imgur.com/AyFYwud.png)
 
 ## Introduction
@@ -40,7 +43,7 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
 ### Array
 - Problems
     1. Easy 27. Remove Element (Done)
-    2. Easy 26. Remove Duplicates from Sorted Array (https://hackmd.io/Smz2SJ57QFe_4K0Gqeyzig)
+    2. Easy [26. Remove Duplicates from Sorted Array](https://hackmd.io/Smz2SJ57QFe_4K0Gqeyzig)
     3. Medium 80. [Remove Duplicates from Sorted Array II](https://hackmd.io/ow-3prR1Sc2WNJWJzZ_z5Q) (Done) 
     4. Unknow 277. Find the Celebrity (No permission)
     5. Easy 189. [Rotate Array](https://hackmd.io/yQ0XjBRqQVySVij7RMbM1w) (Done but more practice needed)
@@ -72,11 +75,55 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     8. Easy [83. Remove Duplicates from Sorted List](https://hackmd.io/stOGxq_QT3as5DW3fLq26Q)
     9. Easy [203. Remove Linked List Elements](https://hackmd.io/nHVP-6myQF-lAMYWNXmvhw)
     10. Medium [Remove Duplicates from Sorted List II](https://hackmd.io/N4KXJWoDTk2d6lptlAnChw)
-    11. [369 Plus One Linked List](https://hackmd.io/Lk0iSFYfTcSJBc_5Epmzrg)
-    12. [Intersection of Two Linked Lists](https://hackmd.io/fmK2esz-QYCYYqXV1gNNKQ)
+    11. Medium [369 Plus One Linked List](https://hackmd.io/Lk0iSFYfTcSJBc_5Epmzrg)
+    12. Easy [Intersection of Two Linked Lists](https://hackmd.io/fmK2esz-QYCYYqXV1gNNKQ)
     13. Add Two Numbers
     14. Merge Two Sorted Lists
 - Note
     1. Adding a dummy node which points to head might be helpful.
     2. Tow pointers is problem killer sometimes.
+    
+### Binary Search
+- Problems
+    1. Easy [278. First Bad Version](/_qvPJaLbRMmdyWzUykkkFQ) 
+    2. Easy [35. Search Insert Position](/QZG5FcVXSty8hOEwynWOvQ)
+    3. Medium [33. Search in Rotated Sorted Array](/DoR6t8e3TXyOcy-ZiQLntg)
+    4. Medium [81. Search in Rotated Sorted Array II](https://hackmd.io/7SisJTJsQfaRJplstjpnjA)
+    5. Medium [153. Find Minimum in Rotated Sorted Array](/paC_5VYjRMW42v9pmnvA-A)
+    6. Hard [154. Find Minimum in Rotated Sorted Array II](https://hackmd.io/vniePA2ISZajm6H1m9IwIA)
+- Note
+    1. Be very careful of boundary.
+    2. Finding the best personal binary search implementaion can help you get rid of unnecessary troubles. For me, I like this:
+    ```python=
+    # Python version
+    left, right = 0, len(nums)
+    mid = 0
+    while left < right:
+        mid = left + (right-left) // 2
+        if nums[mid] > target:
+            right = mid
+        elif nums[mid] < target:
+            left = mid + 1
+        else:
+            return mid
+    # Not found
+    return -1
+    ```
+    or 
+    ```C++=
+    // C++ version
+    int left=0, right=nums.size()-1, mid;
+    while (left < right)
+    {
+        mid = left + (right-left)/2;
+        if (nums.at(mid) > target)
+            right = mid;
+        else if (nums.at(mid) < target)
+            left = mid + 1;
+        else
+            return mid;
+    }
+    return -1;
+    }
+    ```
     
