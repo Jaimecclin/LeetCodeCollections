@@ -8,6 +8,8 @@
 ## Introduction
 This note is my personal Leetcode practice. Trying to articulate them after my learning. At the same time I'd like to practice English writing as well so as these notes would be completed in English. This way it would be easier to review in the future if needed. 
 
+- [Github](https://github.com/Jaimecclin/LeetCodeCollections)
+
 ## Categories
 
 ### Tree
@@ -39,6 +41,9 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
 - Note
     1. Three ways of Depth First Search: (1)Preorder (2)Inorder (3)Postorder are very important.
     2. (Cont'd) It's better to understand recursive and iterative implementation of DFS.
+
+
+---
     
 ### Array
 - Problems
@@ -63,6 +68,9 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     3. Be careful of negtive index in Python.
     4. You have no precise array imagination. More practice needed.
 
+
+---
+
 ### LinkedList
 - Problems
     1. Easy [206. Reverse Linked List](https://hackmd.io/TzUkBaBlSjuXJ2alR0UhEA)
@@ -82,7 +90,17 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
 - Note
     1. Adding a dummy node which points to head might be helpful.
     2. Tow pointers is problem killer sometimes.
-    
+
+
+---
+
+### Backtracking
+- Problems
+- Note
+
+
+---
+
 ### Binary Search
 - Problems
     1. Easy [278. First Bad Version](/_qvPJaLbRMmdyWzUykkkFQ) 
@@ -91,6 +109,10 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     4. Medium [81. Search in Rotated Sorted Array II](https://hackmd.io/7SisJTJsQfaRJplstjpnjA)
     5. Medium [153. Find Minimum in Rotated Sorted Array](/paC_5VYjRMW42v9pmnvA-A)
     6. Hard [154. Find Minimum in Rotated Sorted Array II](https://hackmd.io/vniePA2ISZajm6H1m9IwIA)
+    7. Medium [162. Find Peak Element](https://hackmd.io/2qmLw0Z_S22ACI-7nNWmPA)
+    8. Easy [374. Guess Number Higher or Lower](https://hackmd.io/W1Gkp9jeTXKIL18Q2n_Mbw)
+    9. Medium [34. Find First and Last Position of Element in Sorted Array
+](https://hackmd.io/VCSVjxZAS7q92R2Vf9fwPw)
 - Note
     1. Be very careful of boundary.
     2. Finding the best personal binary search implementaion can help you get rid of unnecessary troubles. For me, I like this:
