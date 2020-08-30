@@ -96,8 +96,14 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
 
 ### Backtracking
 - Problems
-- Note
+    1. Medium [78. Subsets](https://hackmd.io/oHxTt4-AQLeLzlycvc1GgQ?edit)
+    2. Medium [90. Subsets II](/GkLo6PsAQ-q2EdpEBP_fgQ)
+    3. Medium [77. Combinations](/2cmF81g-THCwxQJpo7mxzA)
+    4. Medium [39. Combination Sum](/xCgk_Q4VTuG9DFVsLM_mOg)
+    5. Medium [40. Combination Sum II](https://hackmd.io/Lw9_W0IqRpqvrRFsgUnIHA)
 
+- Note
+    1. Please remember how to do combination and permuation. It's really important.
 
 ---
 
