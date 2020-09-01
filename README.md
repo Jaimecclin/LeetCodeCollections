@@ -101,6 +101,8 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     3. Medium [77. Combinations](/2cmF81g-THCwxQJpo7mxzA)
     4. Medium [39. Combination Sum](/xCgk_Q4VTuG9DFVsLM_mOg)
     5. Medium [40. Combination Sum II](https://hackmd.io/Lw9_W0IqRpqvrRFsgUnIHA)
+    6. Medium [216. Combination Sum III](https://hackmd.io/2TSjD5RNThGGvMgbFB3WSA)
+    7. Medium [377. Combination Sum IV](/0tWoZsA1SL2IthdPXRkw2w)
 
 - Note
     1. Please remember how to do combination and permuation. It's really important.
