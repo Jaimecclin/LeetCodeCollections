@@ -112,6 +112,15 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
 
 ---
 
+### Matrix
+
+- Problems
+    1. Medium [48. Rotate Image](/kpZD6spsRfqPwUlB1rXG-g)
+    2. Medium [54. Spiral Matrix](/PPcLqOavTL2wFNL-r7T7UA)
+
+
+---
+
 ### Binary Search
 - Problems
     1. Easy [278. First Bad Version](/_qvPJaLbRMmdyWzUykkkFQ) 
