@@ -62,6 +62,7 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     13. Medium 55. Hard 45 [Jump Game I & II](https://hackmd.io/KAhEVPc6SemUntgRYOBJrw) (So hard)
     14. Hard [121. 188. Best Time to Buy and Sell Stock](https://hackmd.io/huYrV_FbTTqzAtEWM5xnFg)
     15. Medium 11. [Container With Most Water](https://hackmd.io/NkSkdiMOSIu3scMctcaqZQ)
+    16. Hard [42. Trapping Rain Water](/thsXvd_CSMSl-axI1MqWOQ)
 - Note
     1. Be aware it is a sorted array.
     2. Two pointers usually is good way to solve.
@@ -117,6 +118,10 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
 - Problems
     1. Medium [48. Rotate Image](/kpZD6spsRfqPwUlB1rXG-g)
     2. Medium [54. Spiral Matrix](/PPcLqOavTL2wFNL-r7T7UA)
+    3. Medium [59. Spiral Matrix II](/SkU4C895T2Osvhufzqdt-A)
+    4. Medium [73. Set Matrix Zeroes](/PSTI7UhVSvalKV7BoGm0BQ)
+    5. Medium [311. Sparse Matrix Multiplication](/AGozxOLmQFWz3UEFXWbfOg)
+    6. Hard [329. Longest Increasing Path in a Matrix](/gfBOG-VBSNSvKP_FJWNQsA)
 
 
 ---
