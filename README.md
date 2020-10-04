@@ -63,6 +63,8 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     14. Hard [121. 188. Best Time to Buy and Sell Stock](https://hackmd.io/huYrV_FbTTqzAtEWM5xnFg)
     15. Medium 11. [Container With Most Water](https://hackmd.io/NkSkdiMOSIu3scMctcaqZQ)
     16. Hard [42. Trapping Rain Water](/thsXvd_CSMSl-axI1MqWOQ)
+    17. Medium [334. Increasing Triplet Subsequence](/p9TGRO7FTiaovOWA6Oshsg)
+    18. Hard [128. Longest Consecutive Sequence](/oAZsQ6EmSLyOlZ-djoatCQ)
 - Note
     1. Be aware it is a sorted array.
     2. Two pointers usually is good way to solve.
