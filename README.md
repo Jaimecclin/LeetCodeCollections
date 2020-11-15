@@ -23,20 +23,20 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     7. Easy [226. Invert Binary Tree](https://hackmd.io/MOk4wB92Tdy7ERvVzNuL7g)
     8. Easy [257. Binary Tree Paths](https://hackmd.io/3w79PJA4Su6YUnwV8Tva2g)
     9. Easy & Medium [112. Path Sum I & II](https://hackmd.io/X8BMywz0Q3qV2co8Ooy7jw)
-    10. Medium [129. Sum Root to Leaf Numbers]()
-    11. [298. Binary Tree Longest Consecutive Sequence]()(Cant write)
+    10. Medium [129. Sum Root to Leaf Numbers](https://hackmd.io/xXTzDelzTDG7midQSwoDBw)
+    11. 298. Binary Tree Longest Consecutive Sequence (Cant write)
     12. Easy [111. Minimum Depth of Binary Tree](https://hackmd.io/hP-lAWAISZaoPwt89ZBJug)
     13. Easy [104. Maximum Depth of Binary Tree](https://hackmd.io/0CRV6MFJRaGek8BTvlPLDQ)
     14. Easy [110. Balanced Binary Tree](https://hackmd.io/V1QgcuVURpaaox5fizZ2Gw)
     15. Hard [124. Binary Tree Maximum Path Sum
     ](https://hackmd.io/Ucst_AvCTTmgTSS-5k7DvQ)
     16. [250. Count Univalue Subtrees](https://hackmd.io/zpsx3k4yQ26RrcBjQaGsog)
-    17. [366. Find Leaves of Binary Tree]()
+    17. 366. Find Leaves of Binary Tree (Cant write)
     18. Medium [337. House Robber III](https://hackmd.io/soSVP8ANQDeCtfR0YG1DQA)
     19. Easy [107. Binary Tree Level Order Traversal II](https://hackmd.io/JS9gBNR-SKOAW1_BNg1RGg)
     20. Easy [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
     21. Medium [199. Binary Tree Right Side View](https://hackmd.io/v59LyFAZSS-fiEipiy0yrA)
-    22. Medium [98. Validate Binary Search Tree](https://hackmd.io/oFGEhcbSS2OSunc6adfa1w)
+    22. Medium [98. Validate Binary Search Tree](https://hackmd.io/NItMkXJ0Rw68KX2X3HTwyQ)
     23. Medium [116. Populating Next Right Pointers in Each Node](https://hackmd.io/rJcvys3sS1W5hq5ojUy7OQ)
 - Note
     1. Three ways of Depth First Search: (1)Preorder (2)Inorder (3)Postorder are very important.
@@ -65,6 +65,8 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     16. Hard [42. Trapping Rain Water](/thsXvd_CSMSl-axI1MqWOQ)
     17. Medium [334. Increasing Triplet Subsequence](/p9TGRO7FTiaovOWA6Oshsg)
     18. Hard [128. Longest Consecutive Sequence](/oAZsQ6EmSLyOlZ-djoatCQ)
+    19. Hard [164. Maximum Gap](/2NP1IPjTQqSLfFjn2-EMQw)
+    20. Medium [525. Contiguous Array](/QIe-FVy3QdaNOQy8wDBImQ)
 - Note
     1. Be aware it is a sorted array.
     2. Two pointers usually is good way to solve.
