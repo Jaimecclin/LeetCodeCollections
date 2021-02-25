@@ -47,13 +47,13 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     
 ### Array
 - Problems
-    1. Easy 27. Remove Element (Done)
+    1. [Easy 27. Remove Element](https://hackmd.io/JZISslIOQUaq_wj5rlHLTA)
     2. Easy [26. Remove Duplicates from Sorted Array](https://hackmd.io/Smz2SJ57QFe_4K0Gqeyzig)
     3. Medium 80. [Remove Duplicates from Sorted Array II](https://hackmd.io/ow-3prR1Sc2WNJWJzZ_z5Q) (Done) 
     4. Unknow 277. Find the Celebrity (No permission)
-    5. Easy 189. [Rotate Array](https://hackmd.io/yQ0XjBRqQVySVij7RMbM1w) (Done but more practice needed)
+    5. Easy 189. [Rotate Array](https://hackmd.io/yQ0XjBRqQVySVij7RMbM1w)
     6. Hard 41. [First Missing Positive](https://hackmd.io/rWIvxsXxQxumb187Zyy4zw) (Done)
-    7. Easy 299. Bulls and Cows (Done)
+    7. [Easy 299. Bulls and Cows]()
     8. Medium 134. [Gas Station](https://hackmd.io/ogUTvf_BQ6uBd0XO7DAYZA) (Done)
     9. Medium 274.& 275. [H-Index](https://hackmd.io/mRIs13zZQRWBnzX7SkvkvA) (Done but more practice needed)
     10. Easy 243. [Shortest Word Distance](https://hackmd.io/0YOnPYVGRiO09c7bP1ECJA) (Done)
