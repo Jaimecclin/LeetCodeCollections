@@ -47,18 +47,18 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     
 ### Array
 - Problems
-    1. [Easy 27. Remove Element](https://hackmd.io/JZISslIOQUaq_wj5rlHLTA)
+    1. Easy [27. Remove Element](https://hackmd.io/JZISslIOQUaq_wj5rlHLTA)
     2. Easy [26. Remove Duplicates from Sorted Array](https://hackmd.io/Smz2SJ57QFe_4K0Gqeyzig)
-    3. Medium 80. [Remove Duplicates from Sorted Array II](https://hackmd.io/ow-3prR1Sc2WNJWJzZ_z5Q) (Done) 
-    4. Unknow 277. Find the Celebrity (No permission)
+    3. Medium 80. [Remove Duplicates from Sorted Array II](https://hackmd.io/ow-3prR1Sc2WNJWJzZ_z5Q) 
+    4. Unknown 277. Find the Celebrity
     5. Easy 189. [Rotate Array](https://hackmd.io/yQ0XjBRqQVySVij7RMbM1w)
-    6. Hard 41. [First Missing Positive](https://hackmd.io/rWIvxsXxQxumb187Zyy4zw) (Done)
-    7. [Easy 299. Bulls and Cows]()
-    8. Medium 134. [Gas Station](https://hackmd.io/ogUTvf_BQ6uBd0XO7DAYZA) (Done)
-    9. Medium 274.& 275. [H-Index](https://hackmd.io/mRIs13zZQRWBnzX7SkvkvA) (Done but more practice needed)
-    10. Easy 243. [Shortest Word Distance](https://hackmd.io/0YOnPYVGRiO09c7bP1ECJA) (Done)
-    11. Easy 217. Contains Duplicate (Done)
-    12. Easy 219. 220. [Contains Duplicate II & III](https://hackmd.io/9Cuqqr16RR6piKthWvdWCg) (Done but more practice needed)
+    6. Hard 41. [First Missing Positive](https://hackmd.io/rWIvxsXxQxumb187Zyy4zw) 
+    7. Easy [ 299. Bulls and Cows](https://hackmd.io/CAbJ7lNbT-O-fKjvwGfzFw)
+    8. Medium 134. [Gas Station](https://hackmd.io/ogUTvf_BQ6uBd0XO7DAYZA) 
+    9. Medium 274.& 275. [H-Index](https://hackmd.io/mRIs13zZQRWBnzX7SkvkvA) 
+    10. Easy & Medium 243. 244. 245 [Shortest Word Distance I, II, III](https://hackmd.io/0YOnPYVGRiO09c7bP1ECJA) 
+    11. Easy [217. Contains Duplicate](https://hackmd.io/3fLIOv39RKeYpRvmJuBCGw)
+    12. Easy 219. 220. [Contains Duplicate II & III](https://hackmd.io/9Cuqqr16RR6piKthWvdWCg) 
     13. Medium 55. Hard 45 [Jump Game I & II](https://hackmd.io/KAhEVPc6SemUntgRYOBJrw) (So hard)
     14. Hard [121. 188. Best Time to Buy and Sell Stock](https://hackmd.io/huYrV_FbTTqzAtEWM5xnFg)
     15. Medium 11. [Container With Most Water](https://hackmd.io/NkSkdiMOSIu3scMctcaqZQ)
@@ -67,6 +67,7 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     18. Hard [128. Longest Consecutive Sequence](/oAZsQ6EmSLyOlZ-djoatCQ)
     19. Hard [164. Maximum Gap](/2NP1IPjTQqSLfFjn2-EMQw)
     20. Medium [525. Contiguous Array](/QIe-FVy3QdaNOQy8wDBImQ)
+    21. Mediun [287. Find the Duplicate Number](/zwNvhxWtSIqP8jHgmBkfUw)
 - Note
     1. Be aware it is a sorted array.
     2. Two pointers usually is good way to solve.
@@ -177,4 +178,9 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     return -1;
     }
     ```
-    
+
+--- 
+
+### Graph
+
+1. Medium 133. [Clone Graph](https://hackmd.io/Bd9YpSXoRpWXjdBa9kkiXQ?both)
