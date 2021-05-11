@@ -113,10 +113,16 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     9. Medium [46. Permutations](/Fht3HQTQRz-6mVeX8DeaDA)
     10. Medium [47. Permutations II](/B7g53XcmSAWyggd0nuj1JA)
     11. Medium [31. Next Permutation](/kwYWfjZCTuuFnN6Bh3r6_A)
+    12. Hard [55. Jump Game](https://jaime-lin.medium.com/leetcode-55-jump-game-2496cd718c3e)
 - Note
     1. Please remember how to do combination and permuation. It's really important.
 
 ---
+
+### Dynamic Programming
+
+- Problems
+    1. Easy [70. Climbing Stairs](/eSKr1ZwYRXCSEbN-2_kQBw)
 
 ### Matrix
 
