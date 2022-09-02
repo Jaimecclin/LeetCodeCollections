@@ -68,6 +68,8 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     19. Hard [164. Maximum Gap](/2NP1IPjTQqSLfFjn2-EMQw)
     20. Medium [525. Contiguous Array](/QIe-FVy3QdaNOQy8wDBImQ)
     21. Mediun [287. Find the Duplicate Number](/zwNvhxWtSIqP8jHgmBkfUw)
+    22. Easy [53. Maximum Subarray](/AoXMcftKR5yPFTCLtp5_vQ)
+    
 - Note
     1. Be aware it is a sorted array.
     2. Two pointers usually is good way to solve.
@@ -80,22 +82,30 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
 ### LinkedList
 - Problems
     1. Easy [206. Reverse Linked List](https://hackmd.io/TzUkBaBlSjuXJ2alR0UhEA)
-    2. Easy [141. Linked List Cycle](https://hackmd.io/dCY2MdBUS56Rc9DAWebn1g)
-    3. Easy [24. Swap Nodes in Pairs](https://hackmd.io/fGUrk1XYSL-LCzehPQyOaw)
-    4. Medium [328. Odd Even Linked List](https://hackmd.io/2rqJAKhcSam7fmhvrF7jTw)
-    5. Medium [92. Reverse Linked List II](/sIDEXRSCTBOTMuRtf96MLw)
-    6. Easy [237. Delete Node in a Linked List](https://hackmd.io/6d28t3ARSi-Xgg7xcF4F4A?both)
-    7. Medium [19. Remove Nth Node From End of List](/1q1KxpJNRsCxYoFGYeL96A)
-    8. Easy [83. Remove Duplicates from Sorted List](https://hackmd.io/stOGxq_QT3as5DW3fLq26Q)
-    9. Easy [203. Remove Linked List Elements](https://hackmd.io/nHVP-6myQF-lAMYWNXmvhw)
-    10. Medium [Remove Duplicates from Sorted List II](https://hackmd.io/N4KXJWoDTk2d6lptlAnChw)
-    11. Medium [369 Plus One Linked List](https://hackmd.io/Lk0iSFYfTcSJBc_5Epmzrg)
-    12. Easy [Intersection of Two Linked Lists](https://hackmd.io/fmK2esz-QYCYYqXV1gNNKQ)
-    13. Add Two Numbers
-    14. Merge Two Sorted Lists
+    2. Easy [1290. Convert Binary Number in a Linked List to Integer](/Q-O2MNFmRnC0b6K46OT72g)
+    3. Easy [876. Middle of the Linked List](/c0B8gOvpSoW1ruksN8n7Aw)
+    4. Easy [21. Merge Two Sorted Lists](/yoADbDLKQSqLFOCDB0NdHg)
+    5. Easy [237. Delete Node in a Linked List](https://hackmd.io/6d28t3ARSi-Xgg7xcF4F4A?both)
+    6. Easy [234. Palindrome Linked List](/O-Re3xflRnaJws3UdeTDcw)
+    7. Easy [141. Linked List Cycle](https://hackmd.io/dCY2MdBUS56Rc9DAWebn1g)
+    8. Easy [24. Swap Nodes in Pairs](https://hackmd.io/fGUrk1XYSL-LCzehPQyOaw)
+    9. Medium [1721. Swapping Nodes in a Linked List](/-ivcojW0RhiEFEiCW-2fsQ)
+    10. Medium [143. Reorder List](/u2K2S5o7Q-ihYbMVJQbp0w)
+    11. Medium [148. Sort List](/YkSImjM5SPaqgWEPA_jeLg)
+    12. Medium [328. Odd Even Linked List](https://hackmd.io/2rqJAKhcSam7fmhvrF7jTw)
+    13. Medium [92. Reverse Linked List II](/sIDEXRSCTBOTMuRtf96MLw)
+    14. Medium [19. Remove Nth Node From End of List](/1q1KxpJNRsCxYoFGYeL96A)
+    15. Easy [83. Remove Duplicates from Sorted List](https://hackmd.io/stOGxq_QT3as5DW3fLq26Q)
+    16. Easy [203. Remove Linked List Elements](https://hackmd.io/nHVP-6myQF-lAMYWNXmvhw)
+    17. Medium [Remove Duplicates from Sorted List II](https://hackmd.io/N4KXJWoDTk2d6lptlAnChw)
+    18. Medium [369 Plus One Linked List](https://hackmd.io/Lk0iSFYfTcSJBc_5Epmzrg)
+    19. Easy [Intersection of Two Linked Lists](https://hackmd.io/fmK2esz-QYCYYqXV1gNNKQ)
+    20. Add Two Numbers
+    21. Merge Two Sorted Lists
 - Note
-    1. Adding a dummy node which points to head might be helpful.
-    2. Tow pointers is problem killer sometimes.
+    1. Adding a dummy node which points to the head might be helpful.
+    2. The fast and slow pointers helps you find the middle node. The middle one is the end of first list.
+    3. Tow pointers is the problem killer.
 
 
 ---
@@ -123,6 +133,10 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
 
 - Problems
     1. Easy [70. Climbing Stairs](/eSKr1ZwYRXCSEbN-2_kQBw)
+    2. Medium [62. Unique Paths](/oCI1Z7lpQISmhJujGfQTgw)
+    3. Medium [63. Unique Paths II](/Dkh7_w3HTWCgm5rUEGOULw)
+    4. Medium [279. Perfect Squares](/eUtP0coQSs-6UzENS_x-4g)
+    5. Medium [375. Guess Number Higher or Lower II](https://hackmd.io/J5tuKMt_Sv628o-pNHc4nQ)
 
 ### Matrix
 
@@ -170,19 +184,22 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
     or 
     ```C++=
     // C++ version
-    int left=0, right=nums.size()-1, mid;
-    while (left < right)
-    {
-        mid = left + (right-left)/2;
-        if (nums.at(mid) > target)
-            right = mid;
-        else if (nums.at(mid) < target)
-            left = mid + 1;
-        else
+    int binarysearch(std::vector<int> nums, int key) {
+    int left=0,mid=0, right=nums.size()-1;
+    while(left < right){
+        mid = left + (right-left) / 2;
+        if(nums[mid] == key){
             return mid;
+        }
+        else if(nums[mid] > key){
+            right = mid;
+        }
+        else{
+            left = mid+1;
+        }
     }
     return -1;
-    }
+}
     ```
 
 --- 
@@ -190,3 +207,40 @@ This note is my personal Leetcode practice. Trying to articulate them after my l
 ### Graph
 
 1. Medium 133. [Clone Graph](https://hackmd.io/Bd9YpSXoRpWXjdBa9kkiXQ?both)
+
+- Note
+```python
+def bfs(matrix):
+    m = len(matrix[0])
+    n = len(matrix)
+    visited = [[0] * n for i in range(m)]
+    s = [(0,0)]
+    while s:
+        x, y = s.pop(0)
+        if visited[x][y] == 1:
+            continue
+        else:
+            print(matrix[x][y])
+            visited[x][y] = 1
+            if x+1 < m:
+                s.append((x+1, y))
+            if y+1 < n:
+                s.append((x, y+1))
+
+def dfs(matrix):
+    m = len(matrix[0])
+    n = len(matrix)
+    visited = [[0] * n for i in range(m)]
+    s = [(0,0)]
+    while s:
+        x, y = s.pop()
+        if visited[x][y] == 1:
+            continue
+        else:
+            print(matrix[x][y])
+            visited[x][y] = 1
+            if x+1 < m:
+                s.append((x+1, y))
+            if y+1 < n:
+                s.append((x, y+1))
+```
